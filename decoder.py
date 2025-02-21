@@ -12,12 +12,12 @@ os.makedirs(BARCODE_DIR, exist_ok=True)
 # Database connection
 # conn = pyodbc.connect("DRIVER={SQL Server};SERVER=GLITCHPC\SQLEXPRESS;DATABASE=BARCODE;Trusted_Connection=True")
 # conn = pyodbc.connect(r"DRIVER={SQL Server};SERVER=GLITCHPC\SQLEXPRESS;DATABASE=BARCODE;Trusted_Connection=True")
-conn = pyodbc.connect("DRIVER={SQL Server};SERVER=GLITCHPC\\SQLEXPRESS;DATABASE=BARCODE;Trusted_Connection=True")
+# conn = pyodbc.connect("DRIVER={SQL Server};SERVER=GLITCHPC\\SQLEXPRESS;DATABASE=BARCODE;Trusted_Connection=True")
 # conn = pyodbc.connect("DRIVER={SQL Server};SERVER=GlitchPC/SQLEXPRESS;DATABASE=BARCODE;Trusted_Connection=True")
 # conn = pyodbc.connect("DRIVER={SQL Server};SERVER=GLITCHPC\\SQLEXPRESS;DATABASE=BARCODE;UID=alankrit2004;PWD=alankrit_321#")
 
 
-
+conn = pyodbc.connect("DRIVER={SQL Server};SERVER=GLITCHPC\\SQLEXPRESS;DATABASE=BARCODE;UID=alankrit2004;PWD=alankrit_321#")
 
 
 cursor = conn.cursor()
